@@ -14,6 +14,7 @@ To repozytorium zawiera przykładowe pliki i struktury katalogów, które mogą 
 czerwiec 24 gdansk sperzedaz lub wynajem
 
 ```{r}
+dane<- apartments_pl_2024_06
 dane_gdansk<- dane%>%
   filter(city == "gdansk")
 ```
