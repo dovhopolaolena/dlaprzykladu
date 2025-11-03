@@ -19,3 +19,20 @@ dane_gdansk<- dane%>%
   filter(city == "gdansk")
 ```
 
+
+
+
+
+```{r}
+install.packages("dplyr")
+library(dplyr)
+```
+
+```{r data-structure}
+install.packages("skimr")
+library(skimr)
+skim(dane_gdansk)
+```
+
+
+
