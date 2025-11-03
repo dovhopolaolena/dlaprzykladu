@@ -11,4 +11,10 @@ To repozytorium zawiera przykładowe pliki i struktury katalogów, które mogą 
 ## Struktura katalogów
 - `docs/` - katalog zawierający dokumentację projektu.
 
-czerwiec 24 gdansk sperzedaz lub wynajem 
+czerwiec 24 gdansk sperzedaz lub wynajem
+
+```{r}
+dane_gdansk<- dane%>%
+  filter(city == "gdansk")
+```
+
